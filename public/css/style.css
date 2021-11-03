@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+body{
+    font-weight: bold;
+    background: pink;
+}
