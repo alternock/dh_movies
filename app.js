@@ -23,9 +23,7 @@ app.use("/", genericCTRL);
 app.use("/dominic", dominicCTRL);
 
 app.use("/midoc", midocCTRL);
-
 app.use("/fianriel", fianrielCTRL);
-
 app.use("/emiliano", emilianoCTRL);
 
 app.use("/alejandro", alejandro_ctrl);

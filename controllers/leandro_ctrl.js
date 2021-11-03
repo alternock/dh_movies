@@ -3,11 +3,10 @@ const router = express.Router();
 //
 const data = require("../data/data");
 
-
 router.get("/", (req, res)=>{
-    res.render("emiliano",{
+    res.render("leandro",{
         movies: data
     }); 
  });
 
- module.exports = router;
+ module.exports = ro
