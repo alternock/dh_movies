@@ -12,6 +12,8 @@ app.set("view engine", "ejs");
 app.use(express.static(path.resolve(__dirname, "public")));
 
 app.use("/", genericCTRL);
+app.use("/dominic", dominic_ctrl);
+app.use("/midoc", midoc_ctrl);
 
 app.use("/fianriel", fianrielCTRL);
 
