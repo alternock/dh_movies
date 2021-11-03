@@ -24,9 +24,7 @@ app.use(express.static(path.resolve(__dirname, "public")));
 app.use("/", genericCTRL);
 app.use("/dominic", dominicCTRL);
 app.use("/midoc", midocCTRL);
-
 app.use("/fianriel", fianrielCTRL);
-
 app.use("/emiliano", emilianoCTRL);
 
 app.listen(PORT, ()=>{

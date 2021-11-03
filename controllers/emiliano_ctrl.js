@@ -4,7 +4,7 @@ const router = express.Router();
 const data = require("../data/data");
 
 
-router.get("/emiliano", (req, res)=>{
+router.get("/", (req, res)=>{
     res.render("emiliano",{
         movies: data
     }); 
