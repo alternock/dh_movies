@@ -3,17 +3,11 @@ const express = require("express");
 const app = express();
 //
 const genericCTRL = require("./controllers/generic_ctrl");
-<<<<<<< HEAD
+
 const emilianoCTRL = require("./controllers/emiliano_ctrl");
 const fianrielCTRL = require("./controllers/fianriel_ctrl");
 const dominicCTRL = require("./controllers/dominic_ctrl");
 const midocCTRL = require("./controllers/midoc_ctrl");
-=======
-
-const emilianoCTRL = require("./controllers/emiliano_ctrl");
-
-const fianrielCTRL = require("./controllers/fianriel_ctrl");
->>>>>>> 12965d65b256e12e89b12ea00365203db7642f56
 
 const PORT = process.env.PORT || 3000;
 
