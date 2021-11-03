@@ -3,7 +3,11 @@ const express = require("express");
 const app = express();
 //
 const genericCTRL = require("./controllers/generic_ctrl");
+<<<<<<< HEAD
 const emilianoCTRL = require("./controllers/emiliano_ctrl");
+=======
+const fianrielCTRL = require("./controllers/fianriel_ctrl");
+>>>>>>> bbbfc812fbe433e411dd10e9ac35c018f8821c08
 
 const PORT = process.env.PORT || 3000;
 
@@ -12,6 +16,10 @@ app.set("view engine", "ejs");
 app.use(express.static(path.resolve(__dirname, "public")));
 
 app.use("/", genericCTRL);
+app.use("/dominic", dominic_ctrl);
+app.use("/midoc", midoc_ctrl);
+
+app.use("/fianriel", fianrielCTRL);
 
 app.use("/emiliano", emilianoCTRL);
 
