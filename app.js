@@ -12,6 +12,8 @@ app.use(express.static(path.resolve(__dirname, "public")));
 
 app.use("/", genericCTRL);
 
+app.use("/alejandro", alejanro_ctrl);
+
 app.listen(PORT, ()=>{
     console.log("start server");
 })
