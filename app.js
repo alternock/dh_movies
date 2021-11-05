@@ -9,6 +9,7 @@ const fianrielCTRL = require("./controllers/fianriel_ctrl");
 const dominicCTRL = require("./controllers/dominic_ctrl");
 const midocCTRL = require("./controllers/midoc_ctrl");
 const aboutCTRL = require("./controllers/about_ctrl");
+const shopCTRL = require("./controllers/shop_ctrl");
 
 const PORT = process.env.PORT || 3000;
 
@@ -23,6 +24,7 @@ app.use("/midoc", midocCTRL);
 app.use("/fianriel", fianrielCTRL);
 app.use("/emiliano", emilianoCTRL);
 app.use("/alejandro", alejandro_ctrl);
+app.use("/shop", shopCTRL);
 
 
 app.listen(PORT, ()=>{
