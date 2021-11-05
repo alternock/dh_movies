@@ -11,7 +11,8 @@ const ENDPOINTS = {
   MIDOC: "/midoc",
   FIANRIEL: "/fianriel",
   EMILIANO: "/emiliano",
-  ALEJANDRO: "/alejandro"
+  ALEJANDRO: "/alejandro",
+  FELIPE:"/felipe"
 };
 
 module.exports = ENDPOINTS;
