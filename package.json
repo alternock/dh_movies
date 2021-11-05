@@ -1,24 +1,26 @@
 {
   "name": "project_ejs",
   "version": "1.0.0",
-  "engines": {
-    "node": "14.16.1",
-    "npm":"6.14.12"
-  },
   "description": "",
   "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon --watch app.js --watch controllers"
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devcox/dh_movies.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "ejs": "^3.1.6",
-    "express": "^4.17.1"
+  "bugs": {
+    "url": "https://github.com/devcox/dh_movies/issues"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.14"
-  }
+  "homepage": "https://github.com/devcox/dh_movies#readme"
 }
