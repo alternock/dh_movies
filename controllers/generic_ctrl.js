@@ -5,6 +5,7 @@ const data = require("../data/data");
 
 router.get("/", (req, res)=>{
     res.render("home",{
+        menu:"home",
         movies: data
     }); 
  });

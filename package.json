@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "server": "nodemon --watch app.js"
+    "server": "nodemon --watch app --watch controllers"
   },
   "keywords": [],
   "author": "",
