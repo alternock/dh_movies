@@ -9,23 +9,11 @@ const fianrielCTRL = require("./controllers/fianriel_ctrl");
 const dominicCTRL = require("./controllers/dominic_ctrl");
 const midocCTRL = require("./controllers/midoc_ctrl");
 const aboutCTRL = require("./controllers/about_ctrl");
-<<<<<<< HEAD
-<<<<<<< HEAD
 const felipeCTRL = require("./controllers/felipe_ctrl");
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 8af58b081343e7b321704aead172b5a56329f7f6
 const shopCTRL = require("./controllers/shop_ctrl");
 const productsCTRL = require("./controllers/products.ctrl");
-//endpoint
+//
 const ENDPOINTS = require("./endpoints/endpoints");
-<<<<<<< HEAD
->>>>>>> 1edf2536f6b4e4931d67b20a4837766fca3193da
->>>>>>> f545effc5a7550b757e31ea864f39a047d37eacb
-=======
-
->>>>>>> 8af58b081343e7b321704aead172b5a56329f7f6
 
 const PORT = process.env.PORT || 3000;
 
@@ -40,9 +28,7 @@ app.use("/midoc", midocCTRL);
 app.use("/fianriel", fianrielCTRL);
 app.use("/emiliano", emilianoCTRL);
 app.use("/alejandro", alejandro_ctrl);
-<<<<<<< HEAD
 app.use("/felipe", felipeCTRL);
-=======
 app.use("/shop", shopCTRL);
 
 app.use(ENDPOINTS.GENERIC, genericCTRL);
@@ -53,12 +39,6 @@ app.use(ENDPOINTS.MIDOC, midocCTRL);
 app.use(ENDPOINTS.FIANRIEL, fianrielCTRL);
 app.use(ENDPOINTS.EMILIANO, emilianoCTRL);
 app.use(ENDPOINTS.ALEJANDRO, alejandro_ctrl);
-<<<<<<< HEAD
->>>>>>> 1edf2536f6b4e4931d67b20a4837766fca3193da
->>>>>>> f545effc5a7550b757e31ea864f39a047d37eacb
-=======
-
->>>>>>> 8af58b081343e7b321704aead172b5a56329f7f6
 
 app.get("*",(req, res, next)=>{
   res.render("404");
